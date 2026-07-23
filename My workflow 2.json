@@ -49,7 +49,7 @@
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
-          "id": "BfqxrJg0gWj2q14R",
+          "id": "",
           "name": "Google Gemini(PaLM) Api account"
         }
       }
@@ -58,7 +58,7 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1R3qRxMD9eR6Rcni7LBb4UB2p0ukvDNvo8pHkxhyR23c/edit?gid=0#gid=0",
+          "value": "https://docs.google.com/spreadsheets/d/SEU_DOCUMENTO/edit",
           "mode": "url"
         },
         "sheetName": {
@@ -66,7 +66,7 @@
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "Clientes",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1R3qRxMD9eR6Rcni7LBb4UB2p0ukvDNvo8pHkxhyR23c/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/SEU_DOCUMENTO/edit"
         },
         "options": {}
       },
@@ -80,7 +80,7 @@
       "name": "Get row(s) in sheet in Google Sheets",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "p5UiB0W60Bb2f5AE",
+          "id": "",
           "name": "Google Sheets account"
         }
       }
@@ -223,7 +223,7 @@
       "webhookId": "d0cf4b64-2889-485a-bc78-0ef7eb8740d3",
       "credentials": {
         "gmailOAuth2": {
-          "id": "bYromdXDHI05Xf5A",
+          "id": "",
           "name": "Gmail account"
         }
       }
@@ -281,7 +281,7 @@
       "webhookId": "d0cf4b64-2889-485a-bc78-0ef7eb8740d3",
       "credentials": {
         "gmailOAuth2": {
-          "id": "bYromdXDHI05Xf5A",
+          "id": "",
           "name": "Gmail account"
         }
       }
@@ -354,14 +354,14 @@
       "webhookId": "d0cf4b64-2889-485a-bc78-0ef7eb8740d3",
       "credentials": {
         "gmailOAuth2": {
-          "id": "bYromdXDHI05Xf5A",
+          "id": "",
           "name": "Gmail account"
         }
       }
     },
     {
       "parameters": {
-        "chatId": "5011199958",
+        "chatId": "YOUR_CHAT_ID",
         "text": "=[Pedido de Reembolso fora do Prazo]  Pessoal, chegou um pedido de reembolso de um cliente que estourou o prazo de 7 dias (tá com {{ $('AI Agent').item.json.output.dias_desde_compra }} dias). O sistema barrou, mas como ele é VIP, peço que verifiquem com atenção e avaliem reembolsar o aluno. Avisei pra ele que a gente ia analisar com carinho e dar um retorno em 24h. Conseguem ver com o financeiro se liberamos essa exceção pra não perder o cliente? Cliente: {{ $('AI Agent').item.json.output.nome }} E-mail: {{ $('AI Agent').item.json.output.email }} Produto: {{ $('AI Agent').item.json.output.produto_reembolso }}",
         "additionalFields": {
           "appendAttribution": false
@@ -378,14 +378,14 @@
       "webhookId": "ff091353-5358-4d0b-8d01-f3c6b741ec09",
       "credentials": {
         "telegramApi": {
-          "id": "LxziNGbU1ctJPNis",
+          "id": "",
           "name": "Telegram account"
         }
       }
     },
     {
       "parameters": {
-        "chatId": "5011199958",
+        "chatId": "YOUR_CHAT_ID",
         "text": "=⚠️ Atenção aqui, gente.\nTemos um cliente que pediu reembolso fora do prazo, mas mandou uma mensagem bem pesada..\nO comentário dele foi esse: \"{{ $('AI Agent').item.json.output.comentario }}\"\nPra evitar que ele vá pro Reclame Aqui ou procon, eu já respondi dizendo que escalei o caso pra gerência. Conseguem dar uma atenção pra esse caso por favor?\nCliente: {{ $('AI Agent').item.json.output.nome }}\nE-mail: {{ $('AI Agent').item.json.output.email }}\nProduto: {{ $('AI Agent').item.json.output.produto_reembolso }}\n",
         "additionalFields": {
           "appendAttribution": false
@@ -402,7 +402,7 @@
       "webhookId": "ff091353-5358-4d0b-8d01-f3c6b741ec09",
       "credentials": {
         "telegramApi": {
-          "id": "LxziNGbU1ctJPNis",
+          "id": "",
           "name": "Telegram account"
         }
       }
@@ -555,7 +555,7 @@
   "versionId": "80b1b465-76cb-4d89-a562-313351423604",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "89e74f991a7132b0f75832fbeb49b2fc0062f1b0501cc6ad46b85253e3540106"
+    "instanceId": ""
   },
   "nodeGroups": [],
   "id": "YQVpF3gm5xVvlbVl",
